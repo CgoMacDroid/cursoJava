@@ -5,14 +5,16 @@ Despues se debe pedir un número y una posición , insertarlo en la
 posición indicada desplazandolos una posición  */
 
 import java.util.Scanner;
-public class Ejercicio7{
+public class Ejercicio7
+{
 	public static void main(String args[]){
 		Scanner entrada = new Scanner(System.in);
 
 		int n[] = new int[10];
 		int numero,posicion;
 
-		for(int i = 0; i<8;i++){
+		for(int i = 0; i<8;i++)
+		{
 			System.out.print((i) + ".- Ingresa un numero -->");
 			n[i] = entrada.nextInt();
 		}
